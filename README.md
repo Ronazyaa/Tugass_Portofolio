@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio Mahasiswa Teknik Informatika — pastel pink & white, modern, responsive, cute." />
+  <meta name="description" content="Portofolio pribadi Rona Ziyadatun Nabila 🌸" />
   <title>Portfolio | Mahasiswa Teknik Informatika</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
