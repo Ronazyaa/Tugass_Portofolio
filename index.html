@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio Mahasiswa Teknik Informatika — pastel pink & white, modern, responsive, cute." />
+  <title>Portfolio | Mahasiswa Teknik Informatika</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <span class="blob one"></span>
+  <span class="blob two"></span>
+  <span class="blob three"></span>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <span class="logo" aria-hidden="true"></span>
+          <span>Portofolio ronaa</span>
+        </div>
+        <ul>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#biodata">Biodata</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="https://wa.me/6285655959203">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="chip">👩🏻‍💻 Mahasiswa Teknik Informatika</span>
+        <h1>Annyeong, aku <span class="fancy">Rona</span></h1>
+        <p class="subtitle">Menyukai web dev, data, & UI yang manis.</p>
+        <div class="cta">
+          <a class="btn" href="mailto:ronaziya19@gmail.com">📧 Email</a>
+          <a class="btn btn--ghost" href="https://www.instagram.com/ronazyaaa_?igsh=c3F5M25qZHk1d2Ru&utm_source=qr" target="_blank">📷 Instagram</a>
+          <a class="btn btn--ghost" href="https://github.com/Ronazyaa" target="_blank">🐙 GitHub</a>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:1.2rem">
+        <div class="photo-frame">
+          <!-- Ganti src berikut dengan foto profesional kamu -->
+          <img src="Ronaziya.jpg" alt="Foto Profesional Rona" />
+          <span class="sticker heart">💗</span>
+          <span class="sticker spark">✨</span>
+        </div>
+        <div class="hero-card">
+          <div class="tools">
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-title"><span class="dot"></span><h2>Skill & Teknologi</h2></div>
+      <div class="card">
+        <p>HTML5 • CSS3 • JavaScript (ES6) • Git • GitHub • SQL (Basic)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW: BIODATA yang cute & smooth -->
+  <section id="biodata">
+    <div class="container">
+      <div class="section-title"><span class="dot"></span><h2>Biodata</h2></div>
+      <div class="biodata-grid">
+        <!-- Kolom Kiri: Info Utama -->
+        <div class="card card--soft">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+            <span class="pill">🪪 <strong>Rona</strong> — Informatika</span>
+            <span class="pill" title="Siap magang / part-time">📌 Open to Work</span>
+          </div>
+          <div class="divider"></div>
+          <div class="kv" aria-label="biodata detail">
+            <div class="k">Nama</div><div class="v">Rona Ziyadatun Nabila</div>
+            <div class="k">Panggilan</div><div class="v">Rona</div>
+            <div class="k">TTL</div><div class="v">Blitar, 8 Maret 2006</div>
+            <div class="k">Domisili</div><div class="v">Blitar, Jawa Timur</div>
+            <div class="k">Pendidikan</div><div class="v">S1 Teknik Informatika — Universitas Islam Balitar (aktif)</div>
+            <div class="k">Minat</div><div class="v">CSS, HTML, SQL</div>
+            <div class="k">Email</div><div class="v"><a href="mailto:ronaziya19@gmail.com">ronaziya19@gmail.com</a></div>
+            <div class="k">Telepon</div><div class="v">+62 85655959203</div>
+            <div class="k">Instagram</div><div class="v"><a href="https://www.instagram.com/ronazyaaa_?igsh=c3F5M25qZHk1d2Ru&utm_source=qr" target="_blank">https://www.instagram.com/ronazyaaa_</a></div>
+            <div class="k">GitHub</div><div class="v"><a href="https://github.com/Ronazyaa" target="_blank">https://github.com/Ronazyaa</a></div>
+          </div>
+        </div>
+
+        <!-- Kolom Kanan: Highlight lucu -->
+        <div class="card">
+          <h3 style="margin-top:0">✨ Highlight</h3>
+          <ul style="margin:0;padding-left:1.1rem;line-height:1.8">
+            <li>Membangun landing page responsif dengan aksesibilitas dasar (ARIA).</li>
+            <li>UI mini‑project bertema pastel (Figma → HTML/CSS).</li>
+            <li>Dashboard kecil untuk data kampus (HTML + Chart lib ringan).</li>
+          </ul>
+          <div class="divider"></div>
+          <h3 style="margin:.4rem 0 0">🎯 Target Dekat</h3>
+          <p style="margin:.4rem 0 0">Magang PAMA. Belajar React dasar & Git yang rapi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-title"><span class="dot"></span><h2>Tentang Saya</h2></div>
+      <div class="card">
+        <p>Saya adalah mahasiswa Teknik Informatika yang selalu tertarik dengan dunia teknologi dan inovasi digital. Saya suka bereksperimen dengan berbagai framework, tools, dan bahasa pemrograman untuk menciptakan solusi yang cepat, efisien, dan impactful. Bagi saya, menjadi bagian dari dunia IT berarti terus berkembang, beradaptasi, dan berani mencoba hal baru. Saat ini saya fokus mengembangkan kemampuan di bidang web development, UI/UX, dan analisis data, sambil membangun proyek-proyek mini yang dapat memberikan manfaat nyata bagi pengguna.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-title"><span class="dot"></span><h2>Kontak</h2></div>
+      <div class="card">
+        <form action="https://formspree.io/f/your-id" method="POST">
+          <input type="text" name="name" placeholder="Nama" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" rows="5" placeholder="Pesan" required></textarea>
+          <button class="btn" type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+      <small>© <span id="year"></span> Rona — Dibuat dengan ♥ pakai HTML & CSS.</small>
+      <small><a href="#top">Kembali ke atas ↑</a></small>
+    </div>
+  </footer>
+
+  <script>
+    // Tahun otomatis
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
